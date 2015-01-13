@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <modules>
+        <YRC_RateQuote>
+            <active>true</active>
+            <codePool>community</codePool>
+            <depends>
+                <Mage_Shipping/>
+            </depends>
+		</YRC_RateQuote>
+    </modules>
+</config>

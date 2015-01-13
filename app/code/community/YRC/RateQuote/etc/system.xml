@@ -1,0 +1,189 @@
+<?xml version="1.0"?>
+<config>
+	<sections>
+		<carriers translate="label" module="shipping">
+			<groups>
+				<yrc_ratequote translate="label">
+					<label>YRC Rate</label>
+					<frontend_type>text</frontend_type>
+					<sort_order>200</sort_order>
+					<show_in_default>1</show_in_default>
+					<show_in_website>1</show_in_website>
+					<show_in_store>1</show_in_store>
+					<fields>
+						<!-- Enable -->
+						<active translate="label">
+							<label>Enabled</label>
+							<frontend_type>select</frontend_type>
+							<source_model>adminhtml/system_config_source_yesno </source_model>
+							<sort_order>1</sort_order>
+							<show_in_default>1</show_in_default>
+							<show_in_website>1</show_in_website>
+							<show_in_store>0</show_in_store>
+						</active>
+						<!-- Title -->
+						<title translate="label">
+							<label>Title</label>
+							<frontend_type>text</frontend_type>
+							<sort_order>2</sort_order>
+							<show_in_default>1</show_in_default>
+							<show_in_website>1</show_in_website>
+							<show_in_store>1</show_in_store>
+						</title>
+						<!-- Login User ID-->
+						<login_id>
+							<label>Login User ID</label>
+							<frontend_type>text</frontend_type>
+							<sort_order>3</sort_order>
+							<show_in_default>1</show_in_default>
+							<show_in_website>1</show_in_website>
+							<show_in_store>0</show_in_store>
+						</login_id>
+						<!-- Login Password -->
+						<login_password>
+							<label>Login Password</label>
+						    <frontend_type>obscure</frontend_type>
+						    <backend_model>adminhtml/system_config_backend_encrypted</backend_model>
+							<sort_order>4</sort_order>
+							<show_in_default>1</show_in_default>
+							<show_in_website>1</show_in_website>
+							<show_in_store>0</show_in_store>
+						</login_password>
+						<!--  Base URL -->
+						<base_url translate="label">
+							<label>Base URL</label>
+							<frontend_type>text</frontend_type>
+							<sort_order>5</sort_order>
+							<show_in_default>1</show_in_default>
+							<show_in_website>1</show_in_website>
+							<show_in_store>0</show_in_store>
+						</base_url>
+						<!-- Business Identification -->
+						<bus_id translate="label">
+							<label>Business ID</label>
+							<frontend_type>text</frontend_type>
+							<sort_order>6</sort_order>
+							<show_in_default>1</show_in_default>
+							<show_in_website>1</show_in_website>
+							<show_in_store>0</show_in_store>
+						</bus_id>
+						<!--  Business Role -->
+						<bus_role>
+							<label translate="label">Business Role</label>
+							<frontend_type>text</frontend_type>
+							<sort_order>6</sort_order>
+							<show_in_default>1</show_in_default>
+							<show_in_website>1</show_in_website>
+							<show_in_store>0</show_in_store>
+						</bus_role>
+						<!-- Origin Country -->
+                        <country_id translate="label">
+                            <label>Country</label>
+                            <frontend_type>select</frontend_type>
+                            <frontend_class>countries</frontend_class>
+                            <source_model>adminhtml/system_config_source_country</source_model>
+                            <sort_order>7</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>0</show_in_store>
+                        </country_id>
+						<!-- Origin Region -->
+                        <region_id translate="label">
+                            <label>Region/State</label>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>8</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>0</show_in_store>
+                        </region_id>
+						<!-- Origin Post Code-->
+                        <postcode translate="label">
+                            <label>ZIP/Postal Code</label>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>9</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>0</show_in_store>
+                        </postcode>
+						<!-- Origin City -->
+                        <city translate="label">
+                            <label>City</label>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>10</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>0</show_in_store>
+                        </city>
+						<!--  Payment Terms -->
+						<payment_terms>
+							<label>Payment Terms</label>
+							<frontend_type>text</frontend_type>
+							<sort_order>11</sort_order>
+							<show_in_default>1</show_in_default>
+							<show_in_website>1</show_in_website>
+							<show_in_store>0</show_in_store>
+						</payment_terms>
+						<!--  Line Item Nmfc-->
+						<line_item_nmfc_class>
+							<label>Line Item Nmfc Class</label>
+							<frontend_type>text</frontend_type>
+							<sort_order>12</sort_order>
+							<show_in_default>1</show_in_default>
+							<show_in_website>1</show_in_website>
+							<show_in_store>0</show_in_store>
+						</line_item_nmfc_class>
+						<!--  Service Class -->
+						<service_class>
+							<label>Service Class</label>
+							<frontend_type>text</frontend_type>
+							<sort_order>13</sort_order>
+							<show_in_default>1</show_in_default>
+							<show_in_website>1</show_in_website>
+							<show_in_store>0</show_in_store>
+						</service_class>
+						<!-- Pickup Date -->
+						<pickup_increment>
+							<label>Pickup Increment</label>
+							<frontend_type>text</frontend_type>
+							<sort_order>14</sort_order>
+							<show_in_default>1</show_in_default>
+							<show_in_website>1</show_in_website>
+							<show_in_store>0</show_in_store>
+						</pickup_increment>
+						<!-- Type Query -->
+						<type_query>
+							<label>Type Query</label>
+							<frontend_type>text</frontend_type>
+							<sort_order>15</sort_order>
+							<show_in_default>1</show_in_default>
+							<show_in_website>1</show_in_website>
+							<show_in_store>0</show_in_store>
+						</type_query>
+						<!-- Weight Threshold -->
+						<yrc_weight_max translate="label">
+							<label>
+								Maximum Package Weight (Please consult your
+								shipping carrier for maximum supported shipping
+								weight)
+							</label>
+							<frontend_type>text</frontend_type>
+							<sort_order>90</sort_order>
+							<show_in_default>1</show_in_default>
+							<show_in_website>1</show_in_website>
+							<show_in_store>0</show_in_store>
+						</yrc_weight_max>
+						<!-- Sort Order -->
+						<sort_order translate="label">
+							<label>Sort Order</label>
+							<frontend_type>text</frontend_type>
+							<sort_order>100</sort_order>
+							<show_in_default>1</show_in_default>
+							<show_in_website>1</show_in_website>
+							<show_in_store>1</show_in_store>
+						</sort_order>
+					</fields>
+				</yrc_ratequote>
+			</groups>
+		</carriers>
+	</sections>
+</config>

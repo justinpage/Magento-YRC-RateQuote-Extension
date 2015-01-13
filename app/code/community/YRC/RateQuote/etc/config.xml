@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<config>
+	<modules>
+		<YRC_RateQuote>
+			<module>1.0.0.0</module>
+		</YRC_RateQuote>
+	</modules>
+	<global>
+		<models>
+			<yrc_ratequote>
+				<class>YRC_RateQuote_Model</class>
+			</yrc_ratequote>
+		</models>
+		<helpers>
+			<YRC_RateQuote>
+				<class>YRC_RateQuote_Helper</class>
+			</YRC_RateQuote>
+		</helpers>
+	</global>
+	<default>
+		<carriers>
+			<yrc_ratequote>
+				<active>1</active>
+				<model>yrc_ratequote/carrier</model>
+				<title>YRC Rate Quote Carrier</title>
+				<sort_order>10</sort_order>
+				<sallowspecific>0</sallowspecific>
+				<login_password dbackend_model="adminhtml/system_config_backend_encrypted" />
+			</yrc_ratequote>
+		</carriers>
+	</default>
+</config>
