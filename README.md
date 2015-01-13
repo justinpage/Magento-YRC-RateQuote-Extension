@@ -73,7 +73,7 @@ support cubic dimensions for a more discrete implementation in the near future.
 
 Documentation
 -------------
-This plugin uses [YRC RateQuote SOAP]. Unfortunately, I cannot provide the
+This plugin uses YRC RateQuote SOAP. Unfortunately, I cannot provide the
 implementation guide as it is under a non-disclosure agreement. You can get one
 directly from [YRC API][api].
 
