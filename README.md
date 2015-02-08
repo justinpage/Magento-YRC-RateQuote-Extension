@@ -54,16 +54,16 @@ QA
 --
 *Why do I have to enter my base URL?* 
 
-YRC has a very stict policy on their implementation guide. This repository will
+YRC has a very strict policy on their implementation guide. This repository will
 respect that protection. If you have an account, obtaining the necessary
 information is extremely easy. If you find yourself having difficulty in
-determing the proper base url, please create an [issue][github].
+determining the proper base URL, please create an [issue][github].
 
 [github]: https://github.com/KLVTZ/Magento-YRC-RateQuote-Extension/issues
 
 *Why do you only support weight as the primary condition for a quote?*
 
-As of January 2015, sendiong cubic dimensions, in addition to weight, did not
+As of January 2015, sending cubic dimensions, in addition to weight, did not
 alter the results. That is, sending the weight alone matched the same results
 returned when cubic dimensions where provided. If you have determined edge-cases
 where this may contradict, please create an [issue][github]. My goal is to
